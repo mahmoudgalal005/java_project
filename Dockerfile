@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17
 WORKDIR /application
-COPY mahmoud.java .
-RUN javac mahmoud.java
-CMD ["java", "mahmoud"]
+COPY Mahmoud.java .
+RUN javac Mahmoud.java
+CMD ["java", "Mahmoud"]
